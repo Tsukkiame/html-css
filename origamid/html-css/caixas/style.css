@@ -1,0 +1,103 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --cor0: #8F8EBF;
+    --cor1: #4F4D8C;
+    --cor2: #474073;
+    --cor3: #2E4159;
+    --cor4: #262626;
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Righteous', cursive;
+}
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+    font-family: var(--font0);
+    background-color: var(--cor0);
+}
+
+header {
+    background-image: linear-gradient(0deg, var(--cor3), var(--cor4));
+    width: 800px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 7px 10px rgba(39, 39, 39, 0.644);
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--font1);
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+}
+
+p {
+    font: normal 1em var(--font0);
+}
+
+article {
+    width: 580px;
+    height: 300px;
+    background-color: var(--cor2);
+    float: left;
+    position: relative; /* Define a posição do objeto statis, absolute, relative, fixed */
+    /* top, left bottom e right posicionam elementos com position
+    z-index define a prioridade (pra frente/pra trás) o maior valor fica mais a frente*/
+    z-index: 2;
+}
+
+aside {
+    width: 200px;
+    height: 300px;
+    background-color: var(--cor3);
+    float: left;
+    margin-left: 20px;
+}
+
+.container {
+    /* min-width: 300px;
+    max-width: 1000px;  <= não dá pra usar porque oso utros elementos não são "responsivos"*/
+    margin: 0px auto;
+    width: 800px;
+
+}
+
+.conteudo {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+/* .box-1 {
+    width: 1000px;
+    height: 1000px;
+    background-color: var(--cor1);
+    margin: 0px 10px;
+    float: left;
+}
+
+.box-2 {
+    clear: both;
+} */
+
+footer {
+    background-color: var(--cor4);
+    width: 800px;
+    height: 60px;
+    font-family: var(--font0);
+    text-align: center;
+    font-size: .9em;
+    font-weight: bold;
+    color: white;
+    padding: 20px 0;
+    clear: both;
+}

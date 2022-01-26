@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <hr>
+    <h2>Código-fonte/Pré-formatação</h2>
+    <p>É possível inserir códigos de forma que as letras fiquem monoespaçadas assim como em abientes de programação. Para tal usamos a tag <code>&lt;code&gt;&lt;/code&gt;</code>. Desta forma podemos inserir um trecho de código como:
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre></p>
+    <p>Mas note que neste caso acima, não somente foi utilizado a tag <code>&lt;code&gt;</code>, também foi utilizada a tag <code>&lt;pre&gt;&lt;/pre&gt;</code> que faz com que o texto dentro dela se mantenha pré-formatado, de forma que fique sem alteração de como foi digitado inicialmente.</p>
+    <h2>Citações Simples</h2>
+    <p>Aqui utilizamos uma <q>citação simples em uma frase</q> utilizando a tag <code>&lt;q&gt;&lt;/q&gt;</code>.</p>
+    <h2>Citações Completas</h2>
+    <p>Além das citações simples, é possível gerar blocos separados de citações mais longas usando a tag <code>&lt;blockquote&gt;&lt;/blockquote&gt;</code>: <br>
+    <blockquote cite="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod numquam repudiandae reiciendis quo sunt eveniet libero consequuntur facere omnis error nesciunt, voluptatibus distinctio! Deleniti officia culpa accusantium voluptatum sequi placeat!</blockquote>
+    <br>
+    Sem contar que ainda é possível adicionar o link que direciona ao texto original utilizando <code>cite=""</code> após <code>&lt;blockquote</code>.</p>
+    <h2>Abreviações</h2>
+    <p>Ao utilizar abreviações nos textos, podemos adicionar seus significados às mesmas ao usar a tag <code>&lt;abbr title=""&gt;&lt;/abbr&gt;</code>. Assim, siglas como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> continuam simples, mas contendo o significado completo.</p>
+    <h2>Texto Invertido</h2>
+    <p>A tag <code>&lt;bdo dir=""&gt;&lt;/bdo&gt;</code> pode inverter o texto em seu interior de forma que a sua direção seja especificada como <code>rtl</code> ou <code>ltr</code>. <bdo dir="rtl">Barbariza, mona!</bdo></p>
+</body>
+</html>

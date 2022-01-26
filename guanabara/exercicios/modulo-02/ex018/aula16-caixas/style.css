@@ -1,0 +1,73 @@
+@charset "UFT-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font: 1em Arial, Helvetica, sans-serif;
+    background-color: peachpuff;
+}
+
+article#caixa {
+    background-color: snow;
+    width: 400px;
+    margin: auto;
+    padding: 1px 10px;
+    box-shadow: 3px 3px 5px black;
+    /* box-shadow: h-offset v-offset blur color;
+    valores negativos são deslocamentos p/ esquerda e cima, respectivamente */
+
+    /* Bordas Decoradas
+    ->Vértices arredondados
+    (pode ter 4 valores diferentes)
+        border-radius: 10px 20px 30px 40px;
+     Ou em vértices intercalados
+        border-radius: 10px 30px; */
+    border-radius: 10px;
+}
+
+.box {
+    font: italic bold 2em Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 50px;
+    background-color: lightgray;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    /* border shorthand
+        border: 10px solid red; */
+    
+        padding: 20px;
+    /* padding shorthand
+        padding: 10px 15px 20px 25px;
+    OU p/ duas medidas (1ª top bot 2ª right left)
+        padding: 10px 20px;
+        
+        Completo
+        padding-top: ;
+        padding-right: ;
+        padding-bottom: ;
+        padding-left: ;*/
+
+    outline-width: 30px;
+    outline-style: solid;
+    outline-color: blue;
+    /* outline shorthand
+        outline: 30px solid blue; */
+
+    margin: 50px;
+    /*  margin shorthand
+        margin: 0px 10px 20px 30px; 
+    OU p/ duas medidas (1ª top bot 2ª right left)
+        margin: 0px 15px;
+        
+        Completo
+        margin-top: ;
+        margin-right: ;
+        margin-bottom: ;
+        maring-left: ;
+        
+        Automático
+        margin: auto; */
+}

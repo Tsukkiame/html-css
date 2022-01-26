@@ -1,0 +1,148 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #66ff9171;
+}
+
+header {
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(180deg, #00F545, #00E841, #00CF3B, #00A830 35%, #00691ef8 50%);
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(39, 39, 39, 0.644);
+    
+}
+
+header > h1 {
+    font: normal 2em 'Bebas Neue', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+}
+
+header > h2 {
+    font: normal 1.2em Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+    margin-bottom: 50px;
+}
+
+nav {
+    font: bold 1em Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+nav > a {
+    color: #bfffd1;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+nav > a:hover {
+    background-color: #05ff4c;
+    color: var(#00691E);
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    opacity: .3;
+    filter: opacity(50%);
+    filter: sepia(0%) saturate(100%);
+}
+
+#first {
+    margin-left: 20px;
+}
+
+ main {
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 5px 10px rgba(39, 39, 39, 0.384);
+    text-indent: 1em;
+    text-transform: fu;
+}
+
+article{
+    font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+article > h1 {
+    font: normal 1.5em 'idroid', sans-serif;
+    color: #00691E;
+    text-shadow: 1px 1px 10px rgba(78, 78, 78, 0.281);
+}
+
+article > p > span {
+    font: bold 1em Arial, Helvetica, sans-serif;
+    color: #00691E;
+}
+
+article > h2 {
+    font: normal 1.5em 'idroid', sans-serif;
+    color: #015519;
+    background-image: linear-gradient(90deg, #00E841, #00F545, white);
+}
+
+p > a {
+    font: bold 1em Arial, Helvetica, sans-serif;
+    background-color: #66ff9171;
+    color: #00691E;
+    text-decoration: none;
+    padding: 1px 3px 1px 3px;
+    
+}
+
+p > a:hover {
+    text-decoration: underline #01a52f;
+    opacity: .8;
+}
+
+
+
+article > picture { /* Necessário? */
+    padding: 10px;
+}
+
+iframe {
+    background-color: #00691E;
+    width: 90%;
+    padding: 20px;
+    margin: 0px;
+}
+
+aside {
+    background-image: linear-gradient(180deg, #12af3f 10%, #00e8426c 0%, #00e8426c 90%);
+    border-radius: 20px;
+    padding: 1px 20px 10px 20px;
+    margin: 10px auto 10px auto;
+    box-shadow: 0px 5px 10px rgba(39, 39, 39, 0.384);
+}
+
+aside > h1 {
+    color: white;
+    margin: 10px;
+}
+
+aside > ul {
+    list-style: "\2714";
+    column-count: 2;
+    text-align: left;
+    margin: 0px auto 0px auto;
+}
+
+footer {
+    background-color: #00691E;
+    color: white;
+    text-align: center;
+}

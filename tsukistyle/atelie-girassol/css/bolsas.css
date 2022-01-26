@@ -1,0 +1,12 @@
+.title-bolsas {
+    background: url("../img/bg-bolsas.png") no-repeat center;
+    background-size: cover;
+}
+
+.lista-bolsas {
+    padding: 35px 0px;
+}
+
+.lista-bolsas li {
+    margin: 10px 10px;
+}

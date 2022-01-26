@@ -1,0 +1,19 @@
+@charset "UFT-8";
+
+main {
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article + p { /* O sinal de + indica a tag/objeto que vem logo em seguida do item anterior, neste caso os parágrafos após os articles serão modificados */
+    font-size: .5em;
+}
+
+p {
+    color: rgb(128, 255, 0);
+    font-size: 1.4em;
+}
+
+.noselect {
+    user-select: none;
+}

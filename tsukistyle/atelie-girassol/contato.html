@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Ateliê Girassol - Contato</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style-raw.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="svg/logo.svg" alt="Ateliê Girassol">
+            </a>
+            <nav class="grid-12 header_menu">
+                <ul>
+                    <li><a href="bolsas.html">Bolsas</a></li>
+                    <li><a href="personalizados.html">Personalizados</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html" class="menu_ativo">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-title title-contato">
+        <div class="container">
+            <h1 data-anime="400" class="fadeInDown">Contato</h1>
+            <p data-anime="800" class="fadeInDown">Nos mande suas dúvidas</p>
+        </div>
+    </section>
+
+    <section data-anime="1200" class="contato container fadeInDown">
+        <div class="contato-dados grid-8">
+            <h3>Dados</h3>
+            <span>+55 111 99999-9999</span>
+            <span>email@atelie.com</span>
+            <span>Endereço - Bairro</span>
+            <span>Lorena - SP</span>
+            <h3>Nossas Redes</h3>
+            <ul>
+                <li><a href="https://fb.com" target="_blank" rel="external"><img src="svg/redes-sociais/facebook.svg" alt="Facebook Ateliê"></a></li>
+                <li><a href="https://instagram.com" target="_blank" rel="external"><img src="svg/redes-sociais/instagram.svg" alt="Instagram Ateliê"></a></li>
+            </ul>
+        </div>
+
+        <form id="form_orcamento" method="post" action="enviar.php" class="contato-form grid-8 formphp">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
+
+            <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+            <input class="nao-aparece" type="text" name="leaveblank">
+            <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+            <input class="nao-aparece" type="text" name="dontchange" value="http://">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <section class="container contato-mapa">
+        <a href="https://maps.google.com" class="grid-16"><img src="img/contato-mapa.png" alt="Mapa"></a>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="grid-8 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li> +55 111 99999-9999</li>
+                        <li> email@atelie.com</li>
+                        <li> Endereço - Cidade</li>
+                    </ul>
+                </div>
+                <div class="grid-8 footer_redes">
+                    <h3>Nossas Redes</h3>
+                    <ul>
+                        <li><a href="https://fb.com" target="_blank" rel="external"><img src="svg/redes-sociais/facebook.svg" alt="Facebook Ateliê"></a></li>
+                        <li><a href="https://instagram.com" target="_blank" rel="external"><img src="svg/redes-sociais/instagram.svg" alt="Instagram Ateliê"></a></li>
+                        <li><a href="https://twitter.com" target="_blank" rel="external"><img src="svg/redes-sociais/twitter.svg" alt="Twitter Ateliê"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy">
+            <div class="container">
+                 <p class="grid-16">Ateliê Girassol - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

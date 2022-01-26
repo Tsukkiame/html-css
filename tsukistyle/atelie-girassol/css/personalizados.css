@@ -1,0 +1,12 @@
+.title-personalizados {
+    background: url("../img/bg-personalizados.png") no-repeat center;
+    background-size: cover;
+}
+
+.lista-personalizados {
+    padding: 35px 0px;
+}
+
+.lista-personalizados li {
+    margin: 10px 10px;
+}

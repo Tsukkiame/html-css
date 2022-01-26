@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tentando abrir o site em dispositivos diferentes ou aumentando e diminuindo o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/jup-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/jup-m.png" type="image/png">
+        <img src="imagens/jup-g.png" alt="Vista do Norte de Jupiter">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Reproduzindo áudio em HTML5.</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audiovisual/10. Gate of steiner -piano-.mp3" type="audio/mpeg">
+        <source src="audiovisual/10. Gate of steiner -piano-.ogg" type="audio/ogg">
+        <source src="audiovisual/10. Gate of steiner -piano-.wav" type="image/wav">
+        <p>Seu navegador não suporta áudio <a href="audiovisual/10. Gate of steiner -piano-.mp3" download="gate-of-steiner-piano.mp3" type="audio/mpeg"></a></p>
+    </audio>
+</body>
+</html>

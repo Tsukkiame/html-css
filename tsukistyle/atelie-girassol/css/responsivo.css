@@ -1,0 +1,171 @@
+:root {
+    --cor0: #D9580D;
+    --cor1: #FCBD38;
+    --cor2: #1E4B24;
+    --cor3: #D97C0B59;
+    --cor4: #965F44;
+    --cor5: #000000;
+    --cor6: #ffffff;
+    --cor7: #E04207;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ESTILO PARA TABLET */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+/* Header */
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+/* Introdução Home */
+.introducao {
+    margin-top: 69px;
+}
+
+.introducao img {
+    margin: 10px 50px;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+/* Produtos Home */
+
+.produtos li:nth-child(1) p {
+    padding: 15px 84px;
+
+}
+
+.produtos li:nth-child(2) p {
+    padding: 15px 90px;
+}
+
+.produtos li:nth-child(3) p {
+    padding: 15px 54px;
+}
+
+/* Título das páginas */
+.page-title {
+    margin-top: 69px;
+}
+
+/* Biografia */
+.biografia {
+    padding: 10px;
+}
+
+.biografia h1 {
+    margin-top: 50px;
+}
+
+}
+ 
+/* ESTILO PARA MOBILE */
+    
+@media only screen and (max-width: 767px) {
+
+/* Header */
+.header {
+    position: relative;
+}
+
+.header img {
+    margin: 0px auto 10px auto;
+}
+
+.header_menu {
+    text-align: center;
+}
+
+.header_menu ul li {
+    margin: 0px;
+}
+
+.header_menu ul li a {
+    display: block;
+    float: left;
+    width: 145px;
+    border: 4px solid black;
+}
+
+.header_menu ul li a:hover {
+    color: var(--cor1);
+    border-color: var(--cor2);
+}
+
+.header_menu ul li a.menu_ativo {
+    border-color: var(--cor1);
+    box-shadow:1px 1px 3px var(--cor4);
+}
+
+/* Introdução Home */
+.introducao {
+    margin-top: 0px;
+}
+
+.introducao p {
+    margin-bottom: 60px;
+    margin-right: 0px;
+}
+
+.introducao img {
+    margin: 10px auto;
+}
+
+.btn {
+    margin: 0px 0px 10px 55px;
+}
+
+/* Produtos Home */
+.produtos li:nth-child(1) p {
+    padding: 15px 116px;
+    bottom: 71.6%;
+}
+
+.produtos li:nth-child(2) p {
+    padding: 15px 122px;
+    bottom: 44.2%;
+}
+
+.produtos li:nth-child(3) p {
+    padding: 15px 85px;
+    bottom: 16.5%;
+}
+
+.produtos .btn {
+    margin-right: 55px;
+}
+
+/* Título das páginas */
+.page-title {
+    margin-top: 0px;
+}
+
+/* Biografia */
+.biografia {
+    padding: 10px;
+}
+
+.biografia h1 {
+    margin-top: 10px;
+}
+
+.biografia img {
+    margin: 0px;
+}
+
+/* Contato */
+.contato-form button {
+    margin-left: 40px;
+}
+.contato-mapa {
+    width: 90%;
+}
+
+}
