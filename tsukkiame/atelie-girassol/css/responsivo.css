@@ -38,16 +38,16 @@
 /* Produtos Home */
 
 .produtos li:nth-child(1) p {
-    padding: 15px 84px;
+    padding: 15px 10.96%;/*84px*/
 
 }
 
 .produtos li:nth-child(2) p {
-    padding: 15px 90px;
+    padding: 15px 11.77%;/*90px*/
 }
 
 .produtos li:nth-child(3) p {
-    padding: 15px 54px;
+    padding: 15px 6.95%;/*54px*/
 }
 
 /* Título das páginas */
@@ -124,17 +124,17 @@
 
 /* Produtos Home */
 .produtos li:nth-child(1) p {
-    padding: 15px 116px;
+    padding: 15px 38.67%;/*116px*/
     bottom: 71.6%;
 }
 
 .produtos li:nth-child(2) p {
-    padding: 15px 122px;
+    padding: 15px 40.66%;/*122px*/
     bottom: 44.2%;
 }
 
 .produtos li:nth-child(3) p {
-    padding: 15px 85px;
+    padding: 15px 28.43%;/*85px*/
     bottom: 16.5%;
 }
 

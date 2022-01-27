@@ -201,16 +201,16 @@ img {
 }
 
 .produtos li:nth-child(1) p {
-    padding: 15px 116px;
+    padding: 15px 12.08%;/*116px*/
 
 }
 
 .produtos li:nth-child(2) p {
-    padding: 15px 122px;
+    padding: 15px 12.72%;/*122px*/
 }
 
 .produtos li:nth-child(3) p {
-    padding: 15px 86px;
+    padding: 15px 8.88%;/*86px*/
 }
 
 .produtos-home img {
