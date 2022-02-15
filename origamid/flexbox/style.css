@@ -1,0 +1,38 @@
+@charset "UFT-8";
+
+/* :root {
+    --cor0: #febe01;
+    --cor1: #332200;
+    --cor2: #111;
+    --cor3: #b2b2b2;
+    --fonte0: Arial, Helvetica, sans-serif;
+} */
+
+.flex { /* flex não pensa como o grid que usa colunas e linhas */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* indica se deve ou não quebrar a linha caso um item não caiba na mesma (quebra por último o conteúdo) */
+    /* justify-content: space-between; */ /* justifica todos os itens */
+    /* align-content: center; */ /* só funciona se houver espaço para tal */
+    /* height: 100vh; */ /* vh = viewport height */
+    /* ou para alinhar e justificar numa vez */
+}
+
+h2 {
+    /* margin-right: 20px; /* mas temos os gap então usamos gap / */
+    background: #e7e7e7;
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    margin: 0px;
+    /* flex-grow: 1; */ /* ocupa o espaço vazio disponível */
+    flex-basis: 0; /* define o que o flex-grow irá expandir do espaço em branco exp: 200px */
+    flex-shrink: 1; /* determina se os elementos podem ser encolhidos ou não (=0 indica que não diminua) */
+    /* flex: 1; */ /* atalho para flex-grow, flex-shrink e flex-basis. =1 indica grow 1, shrink 1 e basis 0 */
+}
+
+.grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); /* cria colunas novas de acordo com o que delimitamos nos repeats */
+    gap: 20px;
+}

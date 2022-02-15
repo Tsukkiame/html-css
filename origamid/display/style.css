@@ -1,0 +1,92 @@
+@charset "UFT-8";
+
+/* :root {
+    --cor0: #febe01;
+    --cor1: #332200;
+    --cor2: #111;
+    --cor3: #b2b2b2;
+    --fonte0: Arial, Helvetica, sans-serif;
+} */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* grid-template-rows: ; */ /* 300px auto também tem o repeat(4, 200px)*/
+    /* grid-auto-rows: 200px; */
+    /* place-items: center; justify-items: start | center | end | stretch 
+    ou place-items: align justify */
+    /* place-items: start;
+    grid-template-rows: repeat(3, auto) 1fr; */
+}
+
+.titulo {
+    /* grid-column: 2;
+    text-align: right; */
+    grid-column: 1 / -1;
+}
+
+/* .preco {
+    /* place-self: start end; */
+    /* grid-row: 2; */
+    /* grid-column: 2; */ /* que juntando fica grid-area: 2/2
+} */
+
+/* .foto {
+    /* grid-column: 1/ -1; */ /* 2 / span 3 (caso tiver 4col por exp)*/
+    /* grid-column: 1;
+    grid-row: 2/5;
+} */
+
+.info {
+    display: grid;
+    place-items: start;
+    place-self: start;
+    gap: 20px;
+}
+
+/* .comprar {
+    /* align-self: start; */
+    /* grid-column: 2;
+}*/
+
+/* Estilos Gerais */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 40px;
+}
+
+h1, p {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1;
+}
+
+p, span, a {
+    font-size: 20px;
+}
+
+.preco {
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.comprar {
+    background: #a8f;
+    padding: 10px 20px;
+    color: #103;
+    text-decoration: none;
+    border-radius: 4px;
+}
